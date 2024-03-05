@@ -18,14 +18,12 @@ section {
 .form-box {
     position: relative;
     width: 400px;
-    height: 500px;
+    height: 400px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 40px;
     backdrop-filter: blur(5px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 5rem;
 
 }
 
@@ -33,23 +31,23 @@ h2 {
     font-size: 2.5em;
     color: #fff;
     text-align: center;
-    height: 100px;
+    height: 120px;
 }
 
 .imputbox {
-    position: relative;
     margin: 30px 0;
     width: 310px;
     border-bottom: 2px solid #fff;
+    height: 0vh;
 }
 
-.imputbox label {
+.inputbox label{
     position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
+    left: 85px;
+    transform: translateY(-100%);
     color: #fff;
     font-size: 1em;
+    font-weight: 500;
     pointer-events: none;
     transition: .5s;
 }
@@ -60,25 +58,36 @@ input:valid~ :label {
 }
 
 .inputbox input {
-    width: 80%;
-    height: 50px;
+    width: 95%;
+    height: 40px;
     background: transparent;
     text-underline-position: #fff;
     text-decoration: underline;
-    border: none;
-    outline: none;
     font-size: 1em;
-    padding: 0 35px 0 5px;
+    padding: 0 10px 0 5px;
     color: #fff;
     text-decoration: underline;
 }
 
 .inputbox ion-icon {
     position: absolute;
-    right: 30px;
+    right: 40px;
     color: #fff;
-    font-size: px;
-    top: px;
+    font-size: 20px;
+}
+ 
+.mail{
+    top: 210px;
+}
+
+.lock{
+    top: 270px;
+}
+
+#myemail,#mypassword{
+border: 2px solid rgb(225, 224, 224, 2.5);
+border-radius: 25px;
+outline: silver;
 }
 
 .forget {
