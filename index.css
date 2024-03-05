@@ -17,7 +17,7 @@ section {
 
 .form-box {
     position: relative;
-    width: 400px;
+    width: 300px;
     height: 400px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -28,7 +28,8 @@ section {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 3em;
+    font-family: "Madimi One", sans-serif;
     color: #fff;
     text-align: center;
     height: 120px;
@@ -39,6 +40,7 @@ h2 {
     width: 310px;
     border-bottom: 2px solid #fff;
     height: 0vh;
+    
 }
 
 .inputbox label{
@@ -50,6 +52,7 @@ h2 {
     font-weight: 500;
     pointer-events: none;
     transition: .5s;
+    padding: 1px;
 }
 
 input:focus~lable,
@@ -58,19 +61,24 @@ input:valid~ :label {
 }
 
 .inputbox input {
-    width: 95%;
+    width: 90%;
     height: 40px;
     background: transparent;
-    text-underline-position: #fff;
+    text-underline-position: #645c5c;
     text-decoration: underline;
     font-size: 1em;
-    padding: 0 10px 0 5px;
-    color: #fff;
+    font-family: "Anta", sans-serif;
+    padding: 1px 10px 0 5px;
+    margin: 10px;
+    color: #cbc3c3;
     text-decoration: underline;
 }
 
 .inputbox ion-icon {
     position: absolute;
+    padding: 10px 10px 0px;
+    height: 20px;
+    top: px;
     right: 40px;
     color: #fff;
     font-size: 20px;
@@ -81,7 +89,7 @@ input:valid~ :label {
 }
 
 .lock{
-    top: 270px;
+    top: 290px;
 }
 
 #myemail,#mypassword{
@@ -93,6 +101,7 @@ outline: silver;
 .forget {
     margin: 20px 0 20px;
     font-size: em;
+    font-family: "Madimi One", sans-serif;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -103,12 +112,15 @@ outline: silver;
 }
 
 .forget label a {
+    font-family: "Anta", sans-serif;
     color: #fff;
     text-decoration: underline;
 }
 
 .forget label a:hover {
     text-decoration: underline;
+    color: rgb(2, 2, 253);
+
 
 }
 
@@ -121,11 +133,13 @@ button {
     outline: none;
     cursor: pointer;
     font-size: 1em;
+    font-family: "Madimi One", sans-serif;
     font-weight: 600;
 }
 
 .register {
     font-size: .9em;
+    font-family: "Madimi One", sans-serif;
     color: #fff;
     text-align: center;
     margin: 25px 0 10px;
@@ -134,11 +148,13 @@ button {
 
 .register p a {
     /* text-decoration: ; */
-    color: #0c19d1;
+    color: #dddeec;
     font-weight: 600;
+    font-family: "Anta", sans-serif;
 
 }
 
 .register p a:hover {
     text-decoration: underline;
+    color: rgb(2, 2, 253);
 }
