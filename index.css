@@ -64,13 +64,13 @@ input:valid~ :label {
     width: 90%;
     height: 40px;
     background: transparent;
-    text-underline-position: #645c5c;
+    text-underline-position: #ffffff;
     text-decoration: underline;
     font-size: 1em;
     font-family: "Anta", sans-serif;
     padding: 1px 10px 0 5px;
     margin: 10px;
-    color: #cbc3c3;
+    color: #fcf8f8;
     text-decoration: underline;
 }
 
@@ -140,7 +140,7 @@ button {
 .register {
     font-size: .9em;
     font-family: "Madimi One", sans-serif;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     margin: 25px 0 10px;
 
@@ -148,7 +148,7 @@ button {
 
 .register p a {
     /* text-decoration: ; */
-    color: #dddeec;
+    color: #fdfdff;
     font-weight: 600;
     font-family: "Anta", sans-serif;
 
